@@ -1,0 +1,21 @@
+{
+  "name": "user-plugin-docs",
+  "version": "1.0.0",
+  "description": "Documentation for the user plugin format.",
+  "main": "src/index.md",
+  "scripts": {
+    "build": "echo 'Building documentation...'",
+    "start": "echo 'Starting documentation server...'",
+    "test": "echo 'Running tests...'"
+  },
+  "keywords": [
+    "documentation",
+    "user",
+    "plugin",
+    "format"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
