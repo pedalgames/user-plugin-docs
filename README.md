@@ -2,7 +2,7 @@
 
 ## Overview
 
-This documentation provides a guide to the user plugin format used within the application. It covers the structure, field definitions, templates, display properties, and validation criteria for creating user plugins.
+This documentation provides a guide to the user plugin format used in Pedal Games. It covers the structure, field definitions, templates, display properties, and validation criteria for creating user plugins.
 
 ## Table of Contents
 
