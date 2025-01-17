@@ -19,26 +19,30 @@ The structure of a user plugin is defined by a set of required and optional prop
 
 ## Optional Properties
 
-1. **fields**: 
+1. **tags**:
+   - Type: Array of Strings
+   - Description: Tags used for grouping multiple plugins in the user interface.  
+
+2. **fields**: 
    - Type: Array of Strings
    - Description: An array of fields that the plugin will use. An item in item must be the name of field exposed by Pedal Games, a plugin field characterized by name `plugin/field`, or a reference to a field definition in the fieldDefinitions property in the format `$<fieldDefName>`.
    - Notes: Only together with **template**.
 
-2. **grid**: 
+3. **grid**: 
    - Type: String
    - Format: Should be in the format `columns/rows`, indicating the layout of the plugin in the UI. 
    - Notes: Only together with **template**.
 
-3. **fieldDefinitions**: 
+4. **fieldDefinitions**: 
    - Type: Object
    - Description: An object defining the attributes for each field used in the plugin. Each field can have its own set of properties, such as `label`, `sublabel`, `unit`, `value`, `description`, and `color`.
    - Notes: Only together with **template**.
 
-4. **template**: 
+5. **template**: 
    - Type: String
    - Description: The name of the template to be used for the plugin. This is optional and should match one of the known template names (e.g., 'default', 'block', 'bit').
 
-5. **display**: 
+6. **display**: 
    - Type: String
    - Description: A string that defines how the plugin will be displayed in the UI. This can include HTML fragments and should be validated to ensure it is a proper HTML structure. Where the fields will be inserted is controlled with data-field and data-plugin-field attributes to HTML elements.
    - Notes: To enable the use of a multiline string for the value of display without having to escape the line breaks as otherwise required in the JSON5 format, we allow you to wrap the string in triple quotes like this: ``'''<multiline string>'''``. 
@@ -53,6 +57,7 @@ Using the template 'default':
 {
     "id": "plugin/author-name",
     "name": "Example Plugin",
+    "tags": [ "demo" ],
     "description": "This is an example plugin.",
     "fields": [ "power-instant", "plugin/number", "$field1", "$field2"],
     "template": "default",
