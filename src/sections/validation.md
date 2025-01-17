@@ -17,16 +17,19 @@ A user plugin is considered valid if it meets the following criteria:
 3. **Name**: 
    - Must be a non-empty string that represents the name of the plugin.
 
-4. **Fields**: 
+4. **Tags**:
+   - An optional array of strings.
+   
+5. **Fields**: 
    - An array of strings representing field names. If provided, it should contain valid field names.
 
-5. **Template**: 
+6. **Template**: 
    - An optional string that specifies the template to be used. It must be a non-empty string and match one of the known template names: `default`, `block`, or `bit`.
 
-6. **Display**: 
+7. **Display**: 
    - An optional string that defines how the plugin will be displayed. If provided, it must be a valid HTML fragment.
 
-7. **Field Definitions**: 
+8. **Field Definitions**: 
    - Each field definition must include:
      - **value**: A string with the id of the field to display (either a standard Pedal Games field or a field `plugin/field` getting its data from the HTTP server interface of Pedal Games.
      - **Lines**: A number greater than 0 (default is 1).
