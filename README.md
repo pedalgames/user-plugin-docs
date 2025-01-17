@@ -17,6 +17,14 @@ This documentation provides a guide to the user plugin format used in Pedal Game
 
 To get started with creating user plugins, refer to the sections above for detailed instructions and examples. Each section is designed to help you understand the various aspects of the user plugin format and how to effectively implement it within your application.
 
+## More examples
+
+https://github.com/jeroni7100/pg-zwift-log-plugin
+
+https://github.com/pedalgames/demo-plugins-jrn
+
+
+
 ## Contributing
 
 Contributions to this documentation are welcome. Please follow the guidelines outlined in the project repository for submitting changes or improvements.
