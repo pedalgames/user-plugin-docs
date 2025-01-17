@@ -33,7 +33,7 @@ To implement the block template, include it in the plugin definition:
 
 The `grid` property defines the number of columns and rows for the layout.
 
-## 3. Bit Template
+## 3. Bit Template (TO BE IMPLEMENTED)
 
 The bit template allows for a layout in the style of the Bit data panels from Pedal Games. It allows showing the fields in a grid format.
 
