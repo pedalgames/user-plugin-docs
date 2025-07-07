@@ -27,7 +27,7 @@ is equivalent to
 </div>
 ```
 
-There are also corresponding CSS variables so the class ```data-something``` has a direct corresponding variable ```--something``` unless noted. Variables all has a ```--something-previous``` to reference the prior second.
+There are also corresponding CSS variables so the field ```something``` has a direct corresponding variable ```--something``` unless noted. Variables all has a ```--something-previous``` to reference the prior second.
 
 
 ## Average for the session
@@ -52,7 +52,7 @@ There are some special fields for HR which is not actually averaged per a user p
 - player-hr-average
 - player-hr-zone-average
 - player-pct-hr-max-average
-- 
+ 
 ## User preferences
 
 There are the following classes you can use in game definitions to include the data set in the Player tab
@@ -103,27 +103,38 @@ There are the following classes you can use in game definitions to include the d
 - real-altitude-f
 - gradient
 - lap
-- time-in-game
+- time-in-game  
+  (in seconds)
 - seconds-in-ride
 - time-in-ride
-- time-in-ride-seconds
-- time-in-ride-minutes
+- time-in-ride-seconds  
+  (CSS class: "data-time-in-ride time-minutes-seconds")
+- time-in-ride-minutes  
+  (CSS class: "data-time-in-ride time-minutes-seconds")
 - time-in-ride-minutes-seconds
+  (CSS class: "data-time-in-ride time-minutes-seconds")
 - seconds-in-ride-seconds
+  (CSS class: "data-seconds-in-ride time-seconds")
 - seconds-in-ride-minutes
-- seconds-in-ride-minutes-seconds
+  (CSS class: "data-seconds-in-ride time-minutes")
+- seconds-in-ride-minutes-seconds  
+  (CSS class: "data-seconds-in-ride time-minutes-seconds")
 
 
 ## Instant (other)
 
-- time-of-day-time-hms-localized  
-  Time of day, localized format, hours+minutes+seconds
-- time-of-day-time-hm-localized  
-  Time of day, localized format, hours+minutes
-- time-of-day-time-hms  
-  Time of day, 24 hour format, hours+minutes+seconds
-- time-of-day-time-hm  
-  Time of day, 24 hour format, hours+minutes
+- time-of-day-hms-localized  
+  Time of day, localized format, hours+minutes+seconds  
+  (CSS class: "data-time-of-day time-hms-localized")
+- time-of-day-hm-localized  
+  Time of day, localized format, hours+minutes  
+  (CSS class: "data-time-of-day time-hm-localized")
+- time-of-day-hms  
+  Time of day, 24 hour format, hours+minutes+seconds  
+  (CSS class: "data-time-of-day time-hms")
+- time-of-day-hm  
+  Time of day, 24 hour format, hours+minutes  
+  (CSS class: "data-time-of-day time-hm-localized")
 
 
 
