@@ -12,6 +12,7 @@ This documentation provides a guide to the user plugin format used in Pedal Game
 - [Templates](src/sections/templates.md): Explanation of the different templates available for user plugins and their implementation.
 - [Display](src/sections/display.md): Guidelines on defining display properties and formatting the display string.
 - [Validation](src/sections/validation.md): Criteria for validating user plugins to ensure they meet the necessary requirements.
+- [Data fields](src/sections/data-fields.md): Available built-in data fields.
 
 ## Getting Started
 
