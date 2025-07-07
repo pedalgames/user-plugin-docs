@@ -121,6 +121,25 @@ There are the following classes you can use in game definitions to include the d
 - seconds-in-ride-minutes-seconds  
   (CSS class: "data-seconds-in-ride time-minutes-seconds")
 
+### Draft (mostly Zwift specific)
+
+- draft
+- max-draft
+
+### Zwift fields
+
+- rideons
+- player-zwift-world
+- player-zwift-route
+- player-zwift-road
+- player-zwift-road-elapsed-time
+- player-zwift-road-distance
+- player-zwift-road-climbing
+- player-zwift-is-portal
+- player-zwift-slope-scale
+- player-x
+- player-y
+- player-z
 
 ## Instant (other)
 
@@ -153,7 +172,7 @@ Calculated from game/plugin timer start
 - game-climbing-unit
 - game-climbing-m
 - game-climbing-f
-  
+
 ### Timers
 
 - seconds-in-game
@@ -162,5 +181,4 @@ Calculated from game/plugin timer start
 - timer-seconds
 - first-second
 - this-second
-
 
