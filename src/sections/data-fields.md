@@ -10,7 +10,9 @@ These are existing data fields which can be referenced in ```display``` HTML fra
 
 The recommended way to include a data field is to use the data-field attribute as shown above.
 
-Alternatively (DEPRECATED),  data can be included in the display using CSS classes. All elements with one of the classes documented below will have it's innerText replaced with the corresponding data at run-time. 
+There are also corresponding CSS variables so the field ```something``` has a direct corresponding variable ```--something``` unless noted. Variables all has a ```--something-previous``` to reference the prior second.
+
+Alternatively (DEPRECATED), data can be included in the display using CSS classes. All elements with one of the classes documented below will have it's innerText replaced with the corresponding data at run-time. 
 
 That means that
 
@@ -27,7 +29,6 @@ is equivalent to
 </div>
 ```
 
-There are also corresponding CSS variables so the field ```something``` has a direct corresponding variable ```--something``` unless noted. Variables all has a ```--something-previous``` to reference the prior second.
 
 
 ## Average for the session
