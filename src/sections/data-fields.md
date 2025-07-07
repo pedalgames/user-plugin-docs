@@ -2,11 +2,11 @@
 
 These are existing data fields which can be referenced in ```display``` HTML fragment with the data-field attribute:
 
-``html
+```html
 <div>
     <div><span data-field="hr"></span><div>
 </div>
-``
+```
 
 The recommended way to include a data field is to use the data-field attribute as shown above.
 
@@ -14,18 +14,18 @@ Alternatively (DEPRECATED),  data can be included in the display using CSS class
 
 That means that
 
-``html
+```html
 <div>
     <div><span data-field="hr"></span><div>
 </div>
-``
+```
 
 is equivalent to
-``html
+```html
 <div>
     <div><span class="data-field-hr"></span><div>
 </div>
-``
+```
 
 There are also corresponding CSS variables so the class ```data-something``` has a direct corresponding variable ```--something``` unless noted. Variables all has a ```--something-previous``` to reference the prior second.
 
