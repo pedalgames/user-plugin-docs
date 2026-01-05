@@ -16,6 +16,8 @@ This documentation will guide you through the various aspects of the user plugin
 
 ### Loading plugins in Pedal Games
 
+Plugin files must be named ``plugin-<something>.json`` or ``plugin-<something>.json5`` to be recognised as plugin files.
+
 The user plugin folder where all plugins must be placed is
 
 ``
